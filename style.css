@@ -40,7 +40,7 @@ main{
 }
 
 #cover_section{
-  background-image: url('C:\Users\antua\Documents\FRON-END\sunnyside-agency-landing-page-main\sunnyside-agency-landing-page-main\images\mobile\image-header.jpg');
+  background-image: url('.../sunnyside-agency-landing-page-main\images\desktop\image-header.jpg');
   height: 700px;
   max-width:1200px;
   border: 2px solid black;
