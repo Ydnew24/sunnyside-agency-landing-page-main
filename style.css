@@ -1,5 +1,5 @@
 *{
-  text-align: center;
+  max-width: 1440px;
 }
 
 header{
@@ -59,4 +59,63 @@ main{
   letter-spacing: 5px;
   padding-top: 40px;
   padding-bottom: 150px;
+}
+
+#mission_section{
+  max-width: 1440px;
+}
+
+.mission_section_1{
+  display:flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255,251,248,255);
+  border: 2px solid black;
+}
+
+.mission_section_2{
+  display:flex;
+  flex-flow:row-reverse wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,251,248,255);
+  border: 2px solid black;
+}
+
+.mission_text{
+  width: 30%;
+  height: 50%;
+  margin: auto;
+}
+
+.mission_text h2{
+  font-family: 'Fraunces',sans-serif;
+  font-size: 40px;
+  font-weight: 700px;
+  text-align: left;
+}
+
+.mission_text h4{
+  font-family: 'Barlow',sans-serif;
+  text-align: left;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+
+.mission_text a{
+  font-family: 'Fraunces',sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration-color: Yellow;
+}
+
+.mission_figure{
+    border: 2px solid black;
+    width: 50%;
+}
+
+figure img{
+  border: 2px solid black;
 }
