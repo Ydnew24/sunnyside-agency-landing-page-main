@@ -71,6 +71,7 @@ main{
   justify-content: space-around;
   align-items: center;
   background-color: rgba(255,251,248,255);
+  height: 600px;
 }
 
 .mission_section_2{
@@ -79,6 +80,7 @@ main{
   justify-content: center;
   align-items: center;
   background-color: rgba(255,251,248,255);
+  height: 600px;
 }
 
 .mission_text{
@@ -111,14 +113,16 @@ main{
 
 .mission_figure{
     width: 50%;
+    height: 100%;
 }
 
 figure{
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 figure img{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
