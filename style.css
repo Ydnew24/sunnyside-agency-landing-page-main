@@ -4,13 +4,16 @@
 
 header{
   display: flex;
+  flex-flow: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 70px;
   background-color: rgba(62,190,255,255);
 }
-
+nav{
+  margin: 20px 15px;
+}
 nav a{
   margin: 10px;
   padding:10px;
@@ -20,8 +23,9 @@ nav a{
 }
 
 img[src*="logo.svg"]{
-  height: 25px;
-  margin-left: auto;
+  height: 40%;
+  width: 90%;
+  margin: 20px;
 }
 
 a[href*="#Contact"]{
@@ -35,7 +39,8 @@ a[href*="#Contact"]{
 }
 
 main{
-  border: 2px solid black;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 #cover_section{
@@ -46,7 +51,7 @@ main{
   height: 700px;
   width: 100%;
   display:flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   justify-content: flex-start;
   align-items:center;
 }
@@ -172,7 +177,6 @@ figure img{
   flex-direction: column;
   justify-content: center;
   align-items:center;
-  border: 2px solid black
 }
 
 #testimonials_header{
@@ -196,26 +200,26 @@ figure img{
 
 .client{
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 70%;
   margin: 15px 40px;
-  border: 2px solid black;
 }
 
 .client_picture{
   text-align: center;
+  width: 15%;
+  height: 15%;
 }
 
 .client_picture img{
-  width: 45%;
-  height: 30%;
+  width: 90%;
+  height: 80%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: 2px solid black
 }
 
 .client h3{
@@ -224,7 +228,9 @@ figure img{
   text-align: center;
   opacity: 0.7;
   line-height: 1.8;
+  margin-top: 40px;
   margin-bottom: 30px;
+  width: 80%;
 }
 
 .client h4{
@@ -235,3 +241,76 @@ figure img{
   font-family: 'Barlow',sans-serif;
   margin-top: -10px;
   opacity: 0.5;
+}
+
+#bottom_edge{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.picture_bottom{
+  width: 25%;
+  height: 25%;
+}
+
+footer{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(145,211,197,255);
+  width: 100%;
+  height: 250px;
+}
+
+#logo_footer{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#logo_footer img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.options_footer{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.options_footer h5{
+  margin: 20px;
+  font-family: 'Barlow',sans-serif;
+  color: rgba(46,116,100,255);
+  opacity:0.8;
+  margin-bottom: 60px;
+}
+
+.social_media{
+  display: flex;
+  flex-flow: row;
+}
+
+.icon_social_media{
+  margin: 10px;
+  width: 30%;
+  height: 40%;
+}
+
+.icon_social_media img{
+  height: auto;
+  width: auto;
+}
+
+.attribution{
+  text-align: center;
+  background-color: rgba(254,216,219,255);
+  font-family: 'Barlow',sans-serif;
+  opacity: 0.7;
+}
